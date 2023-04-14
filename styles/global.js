@@ -7,7 +7,7 @@ export const globalStyles = StyleSheet.create({
   },
   titleText: {
     fontFamily: 'Nunito-Bold',
-    fotntweight: 18,
+    fontWeight: 18,
     color: '#333',
   },
   paragraph: {
@@ -29,3 +29,13 @@ export const globalStyles = StyleSheet.create({
     textAlign: 'center',
   },
 });
+
+export const images = {
+  rating: {
+    1: require(`../assets/rating-1.png`),
+    2: require(`../assets/rating-2.png`),
+    3: require(`../assets/rating-3.png`),
+    4: require(`../assets/rating-4.png`),
+    5: require(`../assets/rating-5.png`),
+  },
+};
